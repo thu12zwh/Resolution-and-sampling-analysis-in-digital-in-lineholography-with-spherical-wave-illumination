@@ -1,1 +1,1 @@
-# Optimizing-resolution-and-sampling-in-digital-in-line-holography-with-spherical-wabe-illumination
+# Optimizing-resolution-and-sampling-in-digital-in-line-holography-with-spherical-wave-illumination
