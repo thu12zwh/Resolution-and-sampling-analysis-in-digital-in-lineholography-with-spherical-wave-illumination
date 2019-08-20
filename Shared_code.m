@@ -67,7 +67,7 @@ kernel_FT = fftshift(fft2(fftshift(kernel)));
 o_illu_FT = fftshift(fft2(fftshift(o_illu)));
 %complex amplitude of the field at the sensor plane
 u = ifftshift(ifft2(ifftshift(o_illu_FT.*kernel_FT)));
-figure,imshow(angle(u),[],'border','tight')
+
 %  hologram
 h = u.*conj(u);
 % downsample the hologram to hologram_1 as in the real situation
